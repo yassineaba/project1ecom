@@ -1,0 +1,246 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px; 
+}
+.homepage{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.homepage2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 0, 38);
+  }
+.part1{
+    flex-direction: column;
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    background-color: aliceblue;
+  }
+  .navbar  {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    height: 60px;
+  }
+  .ulnav{
+    width: 50vw;
+    height: 10vh;
+  }
+  /* .ulnav li:hover{
+    font-size: 30px;
+    transform: rotate(45deg);
+  } */
+  .ulnav ul{
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+  .ulnav ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    list-style-type: none;
+  }
+  .ulnav ul li a{
+    text-decoration: none;
+  }
+  .logonav img{
+    width: 100px;
+    height: 50px;
+  }
+  .logonav img:hover{
+    transform: rotate(45deg);
+  }
+  .hrpart1 {
+    margin-left: 200px;
+    width: 40vw;
+    border: 2px orangered grey;
+  }
+  .parag1{
+    /* background-color: blueviolet; */
+    width:600px;
+    height: 200px;
+    margin-left: 50px;
+    
+    font-size: 80px;
+  }
+  .parag1 p{
+    align-items: center;
+    margin-top:5px;
+  }
+  .parag2{
+    /* background-color: chartreuse; */
+    width: 600px;
+    height: 200px;
+    /* margin-top: 6éàPX; */
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .parag2 p{
+    padding-right: 100px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .parag3{
+   /*  background-color: gold; */
+    width: 600px;
+    height: 200px;
+    /* margin-top: -140px; */
+    font-size: 150px;
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .parag3 p{
+    margin-top: -20px;
+    padding-top: 20px; 
+    margin-left: -30px;
+    margin-right: 100px; 
+  }
+  .item1 {
+    background-color: grey;
+    width: 30vw;
+    height: 100vh;
+  }
+  .item1 img{
+    width: 30vw;
+    height: 100vh;
+  }
+  .part2{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+  }
+  .btngauche {
+    width: 60px;
+    height: 60px;
+  }
+  .btndroite {
+    width: 60px;
+    height: 60px;
+  }
+  .gauchedroite{
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    display: flex;
+  }
+  .petith6{
+    margin-left: 80px;
+  }
+  .coolp{
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .coolp1{
+    margin-left: 100px;
+    font-size: 20px;
+  }
+  .coolp2{
+    margin-top: -150px;
+    font-size: 150px;
+  }
+  .absol{
+    position: absolute;
+    width: 350px;
+    height: 418px;
+    /* background-color: rgb(0, 255, 195); */
+    margin-top: 260px;
+    margin-left: 600px;
+    /* border-radius: 50%; */
+    text-align: center;
+  }
+  .absol1{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    /* margin-top: 260px;
+    margin-left: 600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    text-align: center;
+  }
+  .absol1 p
+   {
+    font-size: 30px;
+   /*  margin-top: 50px; */
+  }
+  .absol2 {
+    margin-top: 180px;
+    width:200px;
+    height: 50px;
+    display: flex;
+  }
+  .hr1{
+    background-color:#e5e5e5;
+    width: 58vw;
+    height: 20px;
+  }
+  .hr2{
+    background-color: aliceblue;
+    width: 46vw;
+    height: 20px;
+  }
+  /* .absol2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin-top: 400px;
+    margin-left: 600px;
+    border-radius: 50%;
+    text-align: center;
+  } */
+/* .homepage{
+    width: 100%;
+    height: 100%;  
+    top:0;
+    left: 0;
+    position:absolute;
+    background-color: blue;
+  }
+ */
+
+ .white
+ {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 38vh;
+  display: flex;
+ }
+ .half1{
+  width: 50vw;
+  height: 38vh;
+ }
+ .half1 p{
+  text-align: start;
+  margin-top:  0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 120px;
+  padding-left: 50px;
+  padding-top: 30px;
+ }
+ .half2{
+  width: 50vw;
+  height: 38vh;
+ }
+ .halfup{
+  width: 50vw;
+  height: 19vh;
+ }
+ .halfup p{
+  
+ }
+.halfdown{
+
+}
+.halfdown p{
+
+}
